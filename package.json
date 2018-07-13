@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "mdx-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --no-cache"
+  },
+  "dependencies": {
+    "@mdx-js/tag": "^0.14.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "@mdx-js/parcel-plugin-mdx": "@mdx-js/parcel-plugin-mdx",
+    "parcel-bundler": "^1.9.6"
+  }
+}
